@@ -1,6 +1,6 @@
 # snake-js
 
-Self - Paced Project : Game - Snake 
+Self - Paced Project : Game - Snake
 Game can be played at https://iamshola.github.io/snake-js/
 
 Technologies Used
@@ -11,7 +11,8 @@ Technologies Used
 * Git
 * GitHub
 * Google Fonts
-* Font Awesome
+
+This game was created using canvas as an opportunity to understand the basic principles and practice javascript.
 
 
-Duration: 3 days
+Duration: 2 days
