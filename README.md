@@ -1,7 +1,6 @@
-# Self- Paced Project: Snake
+# Self-Paced Project: Snake
 
 ## Overview
-
 This game was created using canvas as an opportunity to understand the basic principles and practice javascript. The repo can be accessed on [GitHub](https://github.com/Iamshola/snake) and the deployed site can be viewed on [Gh-Pages](https://iamshola.github.io/snake/).
 
 ### Languages and Technologies Used:
@@ -16,6 +15,46 @@ This game was created using canvas as an opportunity to understand the basic pri
 2 days
 
 
+### Snippet of Code
+
+#### Collision Check
+
+``` javascript
+this.checkCollision = function() {
+  for (var i=0; i<this.tail.length; i++) {
+    if (this.x === this.tail[i].x &&
+      this.y === this.tail[i].y) {
+      this.total = 0
+      this.tail = []
+    }
+  }
+}
+```
+
+#### Movement of Snake
+``` javascript
+this.changeDirection = function(direction) {
+  switch(direction) {
+    case 'Up':
+      this.xSpeed = 0
+      this.ySpeed = -scale * 1
+      break
+    case 'Down':
+      this.xSpeed = 0
+      this.ySpeed = scale * 1
+      break
+    case 'Left':
+      this.xSpeed = -scale * 1
+      this.ySpeed = 0
+      break
+    case 'Right':
+      this.xSpeed = scale * 1
+      this.ySpeed = 0
+      break
+  }
+}
+
+```
 
 ### Course Curriculum
   Details of my training and links to more projects whilst at General Assembly -  12 Week Immersive.
