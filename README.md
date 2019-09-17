@@ -1,7 +1,8 @@
 # Self- Paced Project: Snake
 
-Self - Paced Project : Game - Snake
-Game can be played at https://iamshola.github.io/snake-js/
+## Overview
+
+This game was created using canvas as an opportunity to understand the basic principles and practice javascript. The repo can be accessed on [GitHub](https://github.com/Iamshola/snake) and the deployed site can be viewed on [Gh-Pages](https://iamshola.github.io/snake/).
 
 ### Languages and Technologies Used:
 * HTML5
@@ -11,15 +12,8 @@ Game can be played at https://iamshola.github.io/snake-js/
 * GitHub
 * Google Fonts
 
-This game was created using canvas as an opportunity to understand the basic principles and practice javascript.
-
-
 ### Timeframe:
 2 days
-
-
-
-
 
 
 
